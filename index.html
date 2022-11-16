@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/goni.css"> -->
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="bg-Pages">
+        <div class="sidbar-pages">
+                <h2>Goni</h2>
+                <ul>
+                    <a class="active" href="index.html"><i class="fa-solid fa-chart-bar"></i><p>dashboard</p></a>
+                    <a href="next/Profile.html"><i class="fa-solid fa-id-card"></i><p>Profile</p></a>
+                    <a href="next/Projects.html"><i class="fa-solid fa-diagram-project"></i><p>Projects</p></a>
+                    <a href="next/Courses.html"><i class="fa-solid fa-tachograph-digital"></i><p>Courses</p></a>
+                    <!-- <a href="Friends.html"><i class="fa-solid fa-user-group"></i><p>Friends</p></a>
+                    <a href="plans.html"><i class="fa-solid fa-money-check"></i><p>Plans</p></a>
+                    <a href="Files.html"><i class="fa-solid fa-file"></i><p>Files</p></a>
+                    <a href="Settings.html"><i class="fa-solid fa-gear fa-fw"></i><p>Settings</p></a> -->
+                </ul>
+        </div>
+        <div class="mian-page">
+            <div class="header-pages">
+                <input class="search" type="search" placeholder="Type A Keyword">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="profile-icon">
+                    <i class="fa-regular fa-bell"></i>
+                    <img src="imgs/avatars/avatar.png" alt="">
+                </div>
+            </div>
+            <h1>Dashboard</h1>
+            <div class="content">
+                <div class="window profile">
+                    <img class="back-img" src="imgs/profile-back.jpg" alt="">
+                    <h2>Wellcome
+                        <span>Goni</span>
+                    </h2>
+                    <img class="img-profile" src="imgs/avatars/avatar.png" alt="">
+                    <div class="info">
+                        <p>
+                            Abdulthman Goni
+                            <span>Web Developer</span>
+                        </p>
+                        <p>
+                            23
+                            <span>projicts</span>
+                        </p>
+                        <p>
+                            $8500
+                            <span>Earned</span>
+                        </p>
+                    </div>
+                    <a href="">Profile</a>
+                </div>
+
+                <div class="window Targets">
+                    <h2>
+                        Yearly Targets
+                        <span>Targets Of The Year</span>
+                    </h2>
+                    <div class="persant">
+                        <i class="fa-solid fa-dollar-sign "></i>
+                        <div class="per">
+                            <p> Money
+                                <span>$25.000</span>
+                            </p>
+                            <div class="level">
+                                <div style="width: 79%;" data-progress="79%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="persant">
+                        <i class="fa-solid fa-code"></i>
+                        <div class="per">
+                            <p> Projects
+                                <span>20</span>
+                            </p>
+                            <div class="level">
+                                <div style="width: 67%;" data-progress="67%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="persant">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="per">
+                            <p> Team
+                                <span>10</span>
+                            </p>
+                            <div class="level">
+                                <div style="width: 90%;" data-progress="90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="window Draft">
+                    <h2>
+                        Quick Draft
+                        <span>Write A Draft For Your Ideas</span>
+                    </h2>
+                    <form action="">
+                        <input type="text" placeholder="Title">
+                        <textarea placeholder="your thought"></textarea>
+                        <input type="submit" value="Save">
+                    </form>
+                </div>
+
+                <div class="window Statistics">
+                    <h2>
+                        Tickets Statistics
+                        <span>Everything About Support Tickets</span>
+                    </h2>
+                    <div class="Statistic">
+                        <div class="cont">
+                            <i class="fa-regular fa-rectangle-list"></i>
+                            <span>2000</span>
+                            <p>Total</p>
+                        </div>
+                        <div class="cont">
+                            <i class="fa-solid fa-spinner"></i>
+                            <span>390</span>
+                            <p>Pending</p>
+                        </div>
+                        <div class="cont">
+                            <i class="fa-regular fa-circle-check"></i>
+                            <span>1500</span>
+                            <p>Closed</p>
+                        </div>
+                        <div class="cont">
+                            <i class="fa-regular fa-rectangle-xmark"></i>
+                            <span>97</span>
+                            <p>Deleted</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="window news">
+                    <h2>Latest News</h2>
+                    <div class="Latest scrol-windwo">
+                        <div class="new">
+                            <img src="imgs/dai-end.png" alt="">
+                            <h4> dragon quest end
+                                <p>dhme will miss them</p>
+                            </h4>
+                            <span>4 weeks ago</span>
+                        </div>
+                        <div class="new">
+                            <img src="imgs/conan-new.png" alt="">
+                            <h4>Conan still at the top 
+                                <p>dhme so happy</p>
+                            </h4>
+                            <span>2 huor ago</span>
+                        </div>
+                        <div class="new">
+                            <img src="imgs/black-clover-end.png" alt="">
+                            <h4> black clover soon..
+                                <p>the anime in the last arce</p>
+                            </h4>
+                            <span>3 weeks ago</span>
+                        </div>
+                        <div class="new">
+                            <img src="imgs/dr.no-news.png" alt="">
+                            <h4> Dr.Sstone still stopped
+                                <p>dhme will miss them</p>
+                            </h4>
+                            <span>8 month ago</span>
+                        </div>
+                        <div class="new">
+                            <img src="imgs/naruto-new.png" alt="">
+                            <h4> the 7 team at the top
+                                <p>no team can reach them</p>
+                            </h4>
+                            <span>2 month ago</span>
+                        </div>
+                        <div class="new">
+                            <img src="imgs/oda-new.png" alt="">
+                            <h4> odaaaaaa!!!
+                                <p>one piece your uncle</p>
+                            </h4>
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="window Tasks">
+                    <h2>Latest Tasks</h2>
+                    <div class="Latest scrol-windwo">
+                        <div class="task" style="opacity: 0.3;">
+                            <h4><del>One New Video</del> 
+                                <p><del>Python Create Exe Project</del></p>
+                            </h4>
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
+                        <div class="task" style="opacity: 0.3;">
+                            <h4><del>Article</del> 
+                                <p><del>Low Level vs High Level Languages</del></p>
+                            </h4>
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
+                        <div class="task">
+                            <h4> black clover soon..
+                                <p>the anime in the last arce</p>
+                            </h4>
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
+                        <div class="task">
+                            <h4> Dr.Sstone still stopped
+                                <p>dhme will miss them</p>
+                            </h4>
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
+                        <div class="task">
+                            <h4> the 7 team at the top
+                                <p>no team can reach them</p>
+                            </h4>
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
+                        <div class="task">
+                            <h4> odaaaaaa!!!
+                                <p>one piece your uncle</p>
+                            </h4>
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
+                        <div class="task">
+                            <h4> haraaaaaa
+                                <p>manga kingdom legendry</p>
+                            </h4>
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
+                        <div class="task">
+                            <h4> seeeeeee
+                                <p>one piece your uncle</p>
+                            </h4>
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="window files">
+                    <h2>Latest Files</h2>
+                    <div class="Latest  scrol-windwo">
+                        <div class="file">
+                            <img src="imgs/files/pdf.svg" alt="">
+                            <h4> pdf file search
+                                <p>importent</p>
+                            </h4>
+                            <span>2.8mb</span>
+                        </div>
+                        <div class="file">
+                            <img src="imgs/files/psd.svg" alt="">
+                            <h4>for my uncle
+                                <p>one piece</p>
+                            </h4>
+                            <span>3.0mb</span>
+                        </div>
+                        <div class="file">
+                            <img src="imgs/files/dll.svg" alt="">
+                            <h4> conan theory
+                                <p>wacasa rumi</p>
+                            </h4>
+                            <span>3.9mb</span>
+                        </div>
+                        <div class="file">
+                            <img src="imgs/files/eps.svg" alt="">
+                            <h4> explor capcher
+                                <p>c++ cuorce</p>
+                            </h4>
+                            <span>2.56mb</span>
+                        </div>
+                        <div class="file">
+                            <img src="imgs/files/pdf.svg" alt="">
+                            <h4> pdf file search
+                                <p>importent</p>
+                            </h4>
+                            <span>2.8mb</span>
+                        </div>
+                        <div class="file">
+                            <img src="imgs/files/zip.svg" alt="">
+                            <h4> fifa file
+                                <p>fifa 2023</p>
+                            </h4>
+                            <span>2.2mb</span>
+                        </div>
+                        <div class="file">
+                            <img src="imgs/files/pdf.svg" alt="">
+                            <h4> oda file
+                                <p>one piece your uncle</p>
+                            </h4>
+                            <span>1.9mb</span>
+                        </div>
+                        <div class="file">
+                            <img src="imgs/files/psd.svg" alt="">
+                            <h4>for my uncle
+                                <p>one piece</p>
+                            </h4>
+                            <span>3.0mb</span>
+                        </div>
+                        <div class="file">
+                            <img src="imgs/files/dll.svg" alt="">
+                            <h4> conan theory
+                                <p>wacasa rumi</p>
+                            </h4>
+                            <span>3.9mb</span>
+                        </div>
+                        <div class="file">
+                            <img src="imgs/files/pdf.svg" alt="">
+                            <h4> pdf file search
+                                <p>importent</p>
+                            </h4>
+                            <span>2.8mb</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="window Top-Search">
+                    <h2>Top Search Items</h2>
+                    <div class="head">
+                            <p>Keyword</p>
+                            <span>Search Count</span>
+                    </div>
+                    <div class="Latest scrol-windwo">
+                        <div class="row">
+                            <p>javaScript</p>
+                            <span>4453</span>
+                        </div>
+                        <div class="row">
+                            <p>python</p>
+                            <span>4003</span>
+                        </div>
+                        <div class="row">
+                            <p>PHP</p>
+                            <span>3800</span>
+                        </div>
+                        <div class="row">
+                            <p>CSS</p>
+                            <span>3400</span>
+                        </div>
+                        <div class="row">
+                            <p>node.js</p>
+                            <span>3311</span>
+                        </div>
+                        <div class="row">
+                            <p>react</p>
+                            <span>3003</span>
+                        </div>
+                        <div class="row">
+                            <p>django</p>
+                            <span>2953</span>
+                        </div>
+                        <div class="row">
+                            <p>react native</p>
+                            <span>2777</span>
+                        </div>
+                        <div class="row">
+                            <p>laravel</p>
+                            <span>2683</span>
+                        </div>
+                        <div class="row">
+                            <p>flatter</p>
+                            <span>2450</span>
+                        </div>
+                        <div class="row">
+                            <p>go</p>
+                            <span>1953</span>
+                        </div>
+                        <div class="row">
+                            <p>flask</p>
+                            <span>1887</span>
+                        </div>
+                        <div class="row">
+                            <p>botstrab</p>
+                            <span>1803</span>
+                        </div>
+                        <div class="row">
+                            <p>c</p>
+                            <span>1653</span>
+                        </div>
+                        <div class="row">
+                            <p>c++</p>
+                            <span>1555</span>
+                        </div>
+                        <div class="row">
+                            <p>electron.js</p>
+                            <span>1533</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="window Project-Progress">
+                    <h2>Last Project Progress</h2>
+                    <div class="Progress">
+                        <p> <span></span>
+                            Got The Project
+                        </p>
+                        <p> <span></span>
+                            Started The Project
+                        </p>
+                        <p> <span></span>
+                            The Project About To Finish
+                        </p>
+                        <p> <span></span>
+                            Test The Project</p>
+                        <p> <span></span>
+                            Finish The Project & Get Money
+                        </p>
+                    </div>
+                </div>
+
+                <div class="window Reminders">
+                    <div class="Latest">
+                        <h2>Reminders</h2>
+                        <div class="check">
+                            <p>Check My Tasks List</p>
+                            <span>4/11/2022 - 11:25pm</span>
+                        </div>
+                        <div class="check">
+                            <p>Check My Projects</p>
+                            <span>11/11/2022 - 1:45am</span>
+                        </div>
+                        <div class="check">
+                            <p>Call All My Clients</p>
+                            <span>24/11/2022 - 7:05pm</span>
+                        </div>
+                        <div class="check">
+                            <p>Finish The Development Workshop</p>
+                            <span>1/12/2022 - 9:21am</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="window Posts">
+                    <h2>Latest Post</h2>
+                    <div class="Latest scrol-windwo">
+                        <div class="post">
+                            <div class="user">
+                                <img src="imgs/avatars/avatar.png" alt="">
+                                <h4> Goni
+                                    <span>about 1 huor ago</span>
+                                </h4>
+                            </div>
+                            <p>
+                                You Can Fool All Of The People Some Of The Time, 
+                                And Some Of The People All Of The Time, 
+                                But You Can't Fool All Of The People 
+                                All Of The Time.
+                            </p>
+                            <div class="interaction">
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span>2.5k</span>
+                                </div>
+                                <div class="comments">
+                                    <i class="fa-regular fa-comments"></i>
+                                    <span>891</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="user">
+                                <img src="imgs/avatars/avatar.png" alt="">
+                                <h4> hymo
+                                    <span>about 7 huors ago</span>
+                                </h4>
+                            </div>
+                            <p>
+                                one piece my uncle
+                            </p>
+                            <div class="interaction">
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span>2k</span>
+                                </div>
+                                <div class="comments">
+                                    <i class="fa-regular fa-comments"></i>
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="user">
+                                <img src="imgs/avatars/avatar.png" alt="">
+                                <h4> elzero
+                                    <span>about 19 huors ago</span>
+                                </h4>
+                            </div>
+                            <p>
+                                You Can do anything goni! you are great programmer
+                            </p>
+                            <div class="interaction">
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span>19.1k</span>
+                                </div>
+                                <div class="comments">
+                                    <i class="fa-regular fa-comments"></i>
+                                    <span>11k</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="user">
+                                <img src="imgs/avatars/avatar.png" alt="">
+                                <h4> codzila
+                                    <span>about 2 days ago</span>
+                                </h4>
+                            </div>
+                            <p>
+                                if you wanna start learn the prigramming, 
+                                should start by python language.
+                            </p>
+                            <div class="interaction">
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span>16.7k</span>
+                                </div>
+                                <div class="comments">
+                                    <i class="fa-regular fa-comments"></i>
+                                    <span>332</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="window Media">
+                    <h2>Social Media Stats</h2>
+                    <div class="Latest">
+                        <div class="social">
+                            <i class="fa-brands fa-twitter"></i>
+                            <p>46K Followers</p>
+                            <a href="">Follow</a>
+                        </div>
+                        <div class="social">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>32K Followers</p>
+                            <a href="">Follow</a>
+                        </div>
+                        <div class="social">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <p>11K Followers</p>
+                            <a href="">Follow</a>
+                        </div>
+                        <div class="social">
+                            <i class="fa-brands fa-youtube"></i>
+                            <p>90K subs</p>
+                            <a href="">subscribe</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="window Winners">
+                    <h2>top languages</h2>
+                    <div class="lest">
+                        <div class="rank">
+                            <span style="background-image: 
+                                linear-gradient(0deg , var(--Color2) 60% , 
+                                transparent , transparent , transparent);" data-progress="60%">
+                            </span>
+                            <p>PHP</p>
+                        </div>
+                        <div class="rank">
+                            <span style="background-image: 
+                                linear-gradient(0deg , var(--Color2) 70% , 
+                                transparent , transparent , transparent);" data-progress="70%">
+                            </span>
+                            <p>python</p>
+                        </div>
+                        <div class="rank">
+                            <span style="background-image: 
+                                linear-gradient(0deg , var(--Color2) 85% , 
+                                transparent , transparent , transparent);" data-progress="85%">
+                            </span>
+                            <p>JS</p>
+                        </div>
+                        <div class="rank">
+                            <span style="background-image: 
+                                linear-gradient(0deg , var(--Color2) 35% , 
+                                transparent , transparent , transparent);" data-progress="35%">
+                            </span>
+                            <p>ruby</p>
+                        </div>
+                        <div class="rank">
+                            <span style="background-image: 
+                                linear-gradient(0deg , var(--Color2) 65% , 
+                                transparent , transparent , transparent);" data-progress="65%">
+                            </span>
+                            <p>C#</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class= "Projects">
+                    <h2>Projects</h2>
+                    <div class="scroll">
+                        <table>
+                                <thead>
+                                    <tr>
+                                        <th>name</th>
+                                        <th>Finish Date</th>
+                                        <th>Client</th>
+                                        <th>Price</th>
+                                        <th>Team</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Leon</td>
+                                        <td>20 sep 2022</td>
+                                        <td>leon company</td>
+                                        <td>200$</td>
+                                        <td>
+                                            <div class="team">
+                                                <img src="imgs/avatars/avatar.png" alt="">
+                                                <img src="imgs/avatars/team-01.png" alt="">
+                                            </div>
+                                        </td>
+                                        <td><span>Completed</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>kasper</td>
+                                        <td>4 oct 2022</td>
+                                        <td>the kaspers</td>
+                                        <td>500$</td>
+                                        <td>
+                                            <div class="team">
+                                                <img src="imgs/avatars/avatar.png" alt="">
+                                                <img src="imgs/avatars/team-02.png" alt="">
+                                            </div>
+                                        </td>
+                                        <td><span>Completed</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>elkings</td>
+                                        <td>20 oct 2022</td>
+                                        <td>osama elzero</td>
+                                        <td>1000$</td>
+                                        <td>
+                                            <div class="team">
+                                                <img src="imgs/avatars/avatar.png" alt="">
+                                                <img src="imgs/avatars/team-01.png" alt="">
+                                                <img src="imgs/avatars/download.jpeg" alt="">
+                                                <img src="imgs/avatars/team-03.png" alt="">
+                                            </div>
+                                        </td>
+                                        <td><span>Completed</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>dashboard</td>
+                                        <td>20 nov 2022</td>
+                                        <td>osama elzero</td>
+                                        <td>1500$</td>
+                                        <td>
+                                            <div class="team">
+                                                <img src="imgs/avatars/avatar.png" alt="">
+                                                <img src="imgs/avatars/download.jpeg" alt="">
+                                                <img src="imgs/avatars/team-02.png" alt="">
+                                                <img src="imgs/avatars/team-03.png" alt="">
+                                                <img src="imgs/avatars/team-05.png" alt="">
+                                                <img src="imgs/avatars/images (1).png" alt="">
+                                            </div>
+                                        </td>
+                                        <td><span class="loading">in progress</span></td>
+                                    </tr>
+                                </tbody>
+                                
+                                
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
