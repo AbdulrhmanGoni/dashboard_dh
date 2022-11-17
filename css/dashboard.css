@@ -383,7 +383,7 @@ a {
     right: -5px;
     bottom: 0px;
     border: solid 6px;
-    border-color: var(--Color2) 
+    border-color: var(--ColorBlur) 
     transparent transparent transparent;
 }
 
