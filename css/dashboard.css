@@ -374,7 +374,7 @@ a {
     padding: 4px;
     right: -15px;
     bottom: 12px;
-    background-color: var(--Color2);
+    background-color: var(--ColorBlur);
     border-radius: 5px;
 }
 .content .Targets .persant .per .level div::before {
