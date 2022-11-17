@@ -1283,6 +1283,7 @@ section {
 .Friends .card .info {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 20px 0px;
     width: 100%;
     border-top: solid var(--white) 1px;
