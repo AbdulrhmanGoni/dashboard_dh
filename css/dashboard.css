@@ -1198,11 +1198,7 @@ section {
     width: 100%;
 }
 .Courses .Course .profile {
-    width: 35px;
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    border-radius: 50%;
+    display: none
 }
 .Courses .Course .text {
     padding: 20px;
